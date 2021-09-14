@@ -61,7 +61,24 @@
 
     
     
-<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script type="text/javascript" class="silex-script"></script><style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h1 {color: #B4E5E8; line-height: 0.5;}.text-element > .silex-element-content {font-family: 'Oswald', sans-serif; font-weight: normal; color: #8000ff;}p {color: #606060;}a {color: #B4E5E8; text-decoration: none;}[data-silex-href] {color: #B4E5E8; text-decoration: none;}@media only screen and (max-width: 480px) {h1 {line-height: 1;}.text-element > .silex-element-content {font-size: 22px;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="nav">.nav.text-element > .silex-element-content {text-align: center;}.nav a {color: #606060; text-decoration: none;}.nav [data-silex-href] {color: #606060; text-decoration: none;}.nav .page-link-active {color: #B4E5E8;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="hamburger-menu">@media only screen and (max-width: 480px) {.hamburger-menu.text-element > .silex-element-content {line-height: 2;}.hamburger-menu a {color: #606060;}.hamburger-menu [data-silex-href] {color: #606060;}.hamburger-menu ul li {list-style-type: none; font-size: 1.5em;}.hamburger-menu .page-link-active {color: #B4E5E8;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-centered">.style-centered.text-element > .silex-element-content {text-align: center;}</style><script data-dependency="" src="https://editor.silex.me/static/2.11/unslider/unslider-min.js" data-silex-static=""></script><link data-dependency="" rel="stylesheet" href="https://editor.silex.me/static/2.11/unslider/unslider.css" data-silex-static=""></head>
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" class="silex-custom-font"><meta name="viewport" content="width=device-width, initial-scale=1"><script type="text/javascript" class="silex-script">var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+} </script><style class="silex-prodotype-style" type="text/css" data-style-id="all-style">h1 {color: #B4E5E8; line-height: 0.5;}.text-element > .silex-element-content {font-family: 'Oswald', sans-serif; font-weight: normal; color: #8000ff;}p {color: #606060;}a {color: #B4E5E8; text-decoration: none;}[data-silex-href] {color: #B4E5E8; text-decoration: none;}@media only screen and (max-width: 480px) {h1 {line-height: 1;}.text-element > .silex-element-content {font-size: 22px;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="nav">.nav.text-element > .silex-element-content {text-align: center;}.nav a {color: #606060; text-decoration: none;}.nav [data-silex-href] {color: #606060; text-decoration: none;}.nav .page-link-active {color: #B4E5E8;}</style><style class="silex-prodotype-style" type="text/css" data-style-id="hamburger-menu">@media only screen and (max-width: 480px) {.hamburger-menu.text-element > .silex-element-content {line-height: 2;}.hamburger-menu a {color: #606060;}.hamburger-menu [data-silex-href] {color: #606060;}.hamburger-menu ul li {list-style-type: none; font-size: 1.5em;}.hamburger-menu .page-link-active {color: #B4E5E8;}}</style><style class="silex-prodotype-style" type="text/css" data-style-id="style-centered">.style-centered.text-element > .silex-element-content {text-align: center;}</style><script data-dependency="" src="https://editor.silex.me/static/2.11/unslider/unslider-min.js" data-silex-static=""></script><link data-dependency="" rel="stylesheet" href="https://editor.silex.me/static/2.11/unslider/unslider.css" data-silex-static=""></head>
 
 <body data-silex-type="container-element" class="body-initial all-style enable-mobile prevent-resizable prevent-selectable editable-style silex-runtime" data-silex-id="body-initial" style="">
     
