@@ -1,0 +1,27 @@
+
+Mise a jour
+
+Version 2022/05/15 - FlexYourte.3D
+    * ajout : calculateur Patron toils Mur
+    * ajout : calculateur Patron toile toit
+
+Version 2021/11/03 - FlexYourte.3D
+    * ajout : export vue 3D PNG
+    * ajout : export plan en pdf
+    * correction : bug mineur
+    * ajout : graphique perche manquante
+    * ajout : option 4 croisement mur
+    * ajout : option 6 croisement mur
+    * udapte : interface général
+    * udapte : JavaScript
+    * ajout : flexyourte expérimental (6m) de diamètre
+    * ajout : guide message alert (en cours "non fini")
+    * ajout : option résultat en texte et schéma
+    *ajout : option 8 croisement mur
+
+Version 2020/12/30 - FlexYourte.3D
+  * correction : inversion resultat nombre total (perche mur/toit)
+ 
+Version 2020/12/28 - FlexYourte.3D
+  * mise en ligne du Calculateur
+  * ajout: animation degrée mur 5 croisement
